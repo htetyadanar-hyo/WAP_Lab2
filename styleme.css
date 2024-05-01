@@ -1,0 +1,14 @@
+h1,h4{
+    color: brown;
+    font-family: Arial;
+}
+
+body{
+    background-color: black;
+}
+.mycontent,p,hr,span.note{
+    color: gray;
+}
+span{
+    color:blanchedalmond;
+}
