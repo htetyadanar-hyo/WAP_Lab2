@@ -12,3 +12,38 @@ body{
 span{
     color:blanchedalmond;
 }
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.drop_cap{
+    font-size: 16px;
+    font-style: italic;
+}
+.drop_cap::first-letter{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nested{
+    color: yellow;
+    list-style-type: none;
+}
+.nextnested li{
+    color: grey;
+    list-style-type: none;
+}
+.reorder {
+    display: flex; 
+    flex-direction: column;
+}
+.reorder li:nth-child(1){
+    order: 3;
+}
+.reorder li:nth-child(2){
+    order: 2;
+}
+.reorder li:nth-child(3){
+    order: 1;
+}
